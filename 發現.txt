@@ -1,0 +1,11 @@
+querySelector和getby..系列差別 大多數用前者 而後者則是動態抓dom
+
+html的kbd標籤則是專門用來顯示使用者輸入的標籤
+
+querySelector能透過樣板字串的方式來抓取dom元素
+
+傾聽transitionend 可能會傾聽到多個事件(ex:大小border... 許多) 記得要限定是哪個的變化
+
+使用audio時 記得確認播放檔存在再播放 否則會出錯
+
+使用audio時 記得重置播放時間 不然需要等到播放結束才能再播下一次
